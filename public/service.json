@@ -4,41 +4,243 @@
         "image": "https://i.ibb.co/kM8T4w4/birthday3.jpg",
         "name": "Birthday Bliss",
         "description": "Create joyful birthday memories with our tailored event planning services. Let us make your special day truly magical!",
-        "price": "$1,200"
+        "price": "$1,200",
+        "long-description": "At [Your Event Planning Company], we specialize in creating unforgettable birthday celebrations filled with joy and magic. Our dedicated team of event planners is committed to making your special day a truly blissful experience. From selecting the perfect theme to organizing exciting activities and ensuring that every detail is just right, we've got you covered. Let us transform your birthday dreams into reality and create memories that will last a lifetime.",
+        "details": [
+            {
+                "title": "Themed Decor",
+                "image": "https://i.ibb.co/deh4Pkt/birthday-decor.jpg",
+                "description": "Our expert decorators will transform your venue with stunning themed decor that sets the perfect ambiance."
+            },
+            {
+                "title": "Custom Cakes",
+                "image": "https://i.ibb.co/tpR36jD/birthday-cake.jpg",
+                "description": "Indulge in delicious and beautifully crafted custom cakes that are sure to delight your taste buds."
+            },
+            {
+                "title": "Entertainment",
+                "image": "https://i.ibb.co/7zV1C4L/birthday-entertainment.jpg",
+                "description": "Enjoy entertainment options for all ages, including magicians, clowns, and interactive games."
+            },
+            {
+                "title": "Party Favors",
+                "image": "https://i.ibb.co/Cn4gs7H/birthday-favors.jpg",
+                "description": "Send guests home with delightful party favors that serve as lasting mementos of your celebration."
+            },
+            {
+                "title": "Photography",
+                "image": "https://i.ibb.co/gdS2w3M/birthday-photography.jpg",
+                "description": "Capture every special moment with professional photography to cherish for years to come."
+            },
+            {
+                "title": "Dining Delights",
+                "image": "https://i.ibb.co/Fz0GcnX/birthday-dining.jpg",
+                "description": "Savor a delectable dining experience with a menu tailored to your preferences and dietary needs."
+            }
+        ]
     },
     {
         "id": 2,
         "image": "https://i.ibb.co/QvFVpqW/aniversary.jpg",
         "name": "Anniversary Elegance",
         "description": "Celebrate your love story with enchanting anniversary events. Our expert planners ensure a day to remember.",
-        "price": "$1,500"
+        "price": "$1,500",
+        "long-description": "At [Your Event Planning Company], we specialize in crafting elegant and enchanting anniversary celebrations that honor your unique love story. Whether you're celebrating one year or fifty years together, our dedicated team will ensure that your special day is filled with love, joy, and unforgettable moments. From selecting the perfect venue to curating romantic decor and entertainment, we take care of every detail so you can focus on celebrating your cherished journey together.",
+        "details": [
+            {
+                "title": "Venue Selection",
+                "image": "https://i.ibb.co/rFfH2T9/anniversary-venue.jpg",
+                "description": "Choose from a selection of romantic venues that provide the perfect backdrop for your celebration."
+            },
+            {
+                "title": "Candlelit Dinners",
+                "image": "https://i.ibb.co/vQHKDz2/anniversary-dining.jpg",
+                "description": "Indulge in intimate candlelit dinners with a menu of exquisite cuisine and fine wines."
+            },
+            {
+                "title": "Live Music",
+                "image": "https://i.ibb.co/4FD8J5y/anniversary-music.jpg",
+                "description": "Enhance the atmosphere with live music performances that serenade you throughout the evening."
+            },
+            {
+                "title": "Photo Booth",
+                "image": "https://i.ibb.co/dg6J7z5/anniversary-photobooth.jpg",
+                "description": "Create lasting memories with a photo booth equipped with props and personalized backdrops."
+            },
+            {
+                "title": "Anniversary Cake",
+                "image": "https://i.ibb.co/F7VGkgs/anniversary-cake.jpg",
+                "description": "Cut a beautiful anniversary cake designed to symbolize your enduring love and commitment."
+            },
+            {
+                "title": "Toast to Love",
+                "image": "https://i.ibb.co/gFgmMbq/anniversary-toast.jpg",
+                "description": "Raise a glass and share heartfelt toasts with your loved ones in honor of your journey together."
+            }
+        ]
     },
     {
         "id": 3,
         "image": "https://i.ibb.co/HT1NR9R/wedding22.jpg",
         "name": "Wedding Dreams",
         "description": "Turn your wedding dreams into reality with our expert planning services. We handle every detail for your special day.",
-        "price": "$5,000"
+        "price": "$5,000",
+        "long-description": "At [Your Event Planning Company], we specialize in turning wedding dreams into reality. Your wedding day should be a reflection of your love story, and we're here to make that happen. Our experienced team of wedding planners is dedicated to handling every detail, from venue selection to decor, catering, entertainment, and more. We take the stress out of wedding planning so you can focus on creating beautiful memories that will last a lifetime.",
+        "details":[
+            {
+              "title": "Elegant Venue Decor",
+              "image": "https://example.com/elegant-venue-decor.jpg",
+              "description": "Transform your wedding venue into a fairytale setting with our elegant decor options."
+            },
+            {
+              "title": "Professional Photography",
+              "image": "https://example.com/professional-photography.jpg",
+              "description": "Capture every precious moment of your special day with our experienced photographers."
+            },
+            {
+              "title": "Floral Arrangements",
+              "image": "https://example.com/floral-arrangements.jpg",
+              "description": "Add a touch of nature's beauty to your wedding with our exquisite floral arrangements."
+            },
+            {
+              "title": "Catering Services",
+              "image": "https://example.com/catering-services.jpg",
+              "description": "Delight your guests with a wide range of delicious dishes and impeccable catering services."
+            },
+            {
+              "title": "Wedding Planning",
+              "image": "https://example.com/wedding-planning.jpg",
+              "description": "Let our expert wedding planners take care of every detail, so you can enjoy your day to the fullest."
+            },
+            {
+              "title": "Live Music Entertainment",
+              "image": "https://example.com/live-music-entertainment.jpg",
+              "description": "Create a vibrant and joyful atmosphere with live music performances that will keep your guests entertained."
+            }
+          ]
+          
     },
     {
         "id": 4,
         "image": "https://i.ibb.co/XYjkZxY/wedding2.jpg",
         "name": "Wedding Elegance",
         "description": "Experience timeless elegance on your wedding day. Our expert planners will make your wedding unforgettable.",
-        "price": "$2,500"
+        "price": "$2,500",
+        "long-description": "Your wedding day deserves to be an elegant and unforgettable affair. Our team at [Your Event Planning Company] specializes in creating weddings filled with timeless beauty and sophistication. From selecting the perfect venue with breathtaking views to designing exquisite floral arrangements and providing top-notch catering services, we ensure every aspect of your wedding radiates elegance and charm. Trust us to make your wedding day dreams come true.",
+        "details": [
+            {
+              "title": "Elegant Venue",
+              "image": "elegant_venue.jpg",
+              "description": "Choose from a selection of exquisite venues to make your wedding day truly special."
+            },
+            {
+              "title": "Stylish Decorations",
+              "image": "stylish_decorations.jpg",
+              "description": "Transform your wedding venue with our stylish and customizable decorations."
+            },
+            {
+              "title": "Gourmet Catering",
+              "image": "gourmet_catering.jpg",
+              "description": "Indulge in a gourmet dining experience with our top-notch catering services."
+            },
+            {
+              "title": "Professional Photography",
+              "image": "professional_photography.jpg",
+              "description": "Capture every moment beautifully with our professional photography services."
+            },
+            {
+              "title": "Floral Arrangements",
+              "image": "floral_arrangements.jpg",
+              "description": "Enhance the ambiance with stunning floral arrangements designed to perfection."
+            },
+            {
+              "title": "Dedicated Planning",
+              "image": "dedicated_planning.jpg",
+              "description": "Our dedicated team will plan and execute your wedding with utmost care and attention to detail."
+            }
+          ]
+          
     },
     {
         "id": 5,
         "image": "https://i.ibb.co/g3bLTZp/birht.jpg",
         "name": "Kids' Birthday Adventures",
         "description": "Make your child's birthday magical with themed celebrations, exciting activities, and delicious treats!",
-        "price": "$800"
+        "price": "$800",
+        "long-description": "Every child's birthday is a special milestone, and we're here to make it magical! At [Your Event Planning Company], we specialize in creating unforgettable kids' birthday adventures. From crafting imaginative and fun-filled themes to organizing exciting activities and providing delicious treats, we ensure your child's special day is filled with joy and laughter. Let us create an enchanting world where your child's birthday wishes come true.",
+        "details": [
+            {
+              "title": "Adventure Birthday Party",
+              "image": "adventureland.jpg",
+              "description": "Experience a magical adventure with our exciting birthday packages. From treasure hunts to jungle safaris, your child's birthday will be an unforgettable journey!"
+            },
+            {
+              "title": "Enchanted Garden Party",
+              "image": "enchanted_garden.jpg",
+              "description": "Host an enchanting birthday party in our beautiful garden setting. Your child and their friends will enjoy a fairy-tale celebration amidst colorful flowers and friendly creatures."
+            },
+            {
+              "title": "Pirate Birthday Party",
+              "image": "pirate_cove.jpg",
+              "description": "Set sail on a pirate adventure! Our Pirate Cove Party is perfect for young buccaneers. Get ready for treasure hunts, pirate games, and swashbuckling fun."
+            },
+            {
+              "title": "Superhero Birthday Party",
+              "image": "superhero_training.jpg",
+              "description": "Calling all young superheroes! Join our Superhero Training Camp and learn to save the day. Get your capes ready for action-packed games and hero-themed activities."
+            },
+            {
+              "title": "Dinosaur Birthday Party",
+              "image": "dinosaur_expedition.jpg",
+              "description": "Step into the prehistoric world of dinosaurs! Our Dinosaur Expedition party is perfect for budding paleontologists. Dig for fossils, learn about dinosaurs, and have a roaring good time!"
+            },
+            {
+              "title": "Space Birthday Party",
+              "image": "space_adventure.jpg",
+              "description": "Blast off on a cosmic adventure! Our Space Adventure Odyssey will take your child and their friends on a journey through the stars. Explore planets, learn about space, and have an out-of-this-world birthday!"
+            }
+          ]
+          
     },
     {
         "id": 6,
         "image": "https://i.ibb.co/p39JXPS/anniversarry2.jpg",
         "name": "Golden Anniversary Moments",
         "description": "Celebrate 50 years of love with grand anniversary events. We create golden memories for your milestone.",
-        "price": "$3,500"
+        "price": "$3,500",
+        "long-description": "Reaching a 50-year milestone in your journey of love is a remarkable achievement, and it deserves a grand celebration. At [Your Event Planning Company], we specialize in creating golden anniversary moments that honor your enduring love story. From selecting elegant venues to arranging exquisite dining experiences and entertainment that resonates with your journey, we ensure your golden anniversary is filled with love and cherished memories.",
+        "details":[
+            {
+              "title": "Elegant Golden Anniversary Celebration",
+              "image": "https://example.com/anniversary1.jpg",
+              "description": "Celebrate 50 years of love and togetherness with an elegant and memorable anniversary event. Our expert team will make your golden anniversary unforgettable."
+            },
+            {
+              "title": "Romantic Golden Anniversary Dinner",
+              "image": "https://example.com/anniversary2.jpg",
+              "description": "Enjoy a romantic evening with your loved one on your 50th anniversary. Our team will create a cozy and intimate atmosphere for your special night."
+            },
+            {
+              "title": "Golden Anniversary Photo Shoot",
+              "image": "https://example.com/anniversary3.jpg",
+              "description": "Capture the precious moments of your golden anniversary with a professional photo shoot. Cherish the memories forever."
+            },
+            {
+              "title": "Renewal of Vows Ceremony",
+              "image": "https://example.com/anniversary4.jpg",
+              "description": "Renew your vows in a beautiful ceremony surrounded by family and friends. Let us help you reaffirm your love on this special occasion."
+            },
+            {
+              "title": "Golden Anniversary Party Planning",
+              "image": "https://example.com/anniversary5.jpg",
+              "description": "Throw a grand party to celebrate your 50 years together. Our event planning experts will handle all the details for a memorable celebration."
+            },
+            {
+              "title": "Custom Golden Anniversary Decor",
+              "image": "https://example.com/anniversary6.jpg",
+              "description": "Create a personalized and luxurious ambiance for your golden anniversary with our custom decor services. Make your event truly unique."
+            }
+          ]
+          
     }
 ]

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { HiCurrencyDollar } from "react-icons/hi";
 import './Team.css'
+import { Link } from "react-router-dom";
 
 
 
@@ -27,7 +28,7 @@ const Service = () => {
                   <p>{service.description}</p>
                  <div className="flex justify-between items-center">
                     <p className="text-xl font-medium flex items-center  "> <HiCurrencyDollar className="mr-2 text-2xl"></HiCurrencyDollar>Price: {service.price}</p>
-                    <button className="btn bg-[#403F3F] text-white">View Details</button>
+                   <Link to={`/service/${service.id}`}> <button className="btn bg-[#403F3F] text-white">View Details</button></Link>
                  </div>
                 </div>
               </div>
