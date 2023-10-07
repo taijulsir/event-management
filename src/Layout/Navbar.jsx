@@ -5,29 +5,29 @@ const Navbar = () => {
     const navLinks =
         <>
 
-            <li className="mr-4 text-xl font-medium "><NavLink className={({ isActive, isPending }) =>
+            <li className="mr-4 text-xl text-white font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
             } to="/">Home</NavLink></li>
-            <li className="mr-4 text-xl font-medium "><NavLink className={({ isActive, isPending }) =>
+            <li className="mr-4 text-xl text-white font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
             } to="/service">Service</NavLink></li>
-            <li className="mr-4 text-xl font-medium "><NavLink className={({ isActive, isPending }) =>
+            <li className="mr-4 text-xl text-white font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
             } to="/gallery">Gallery</NavLink></li>
-            <li className="mr-4 text-xl font-medium "><NavLink className={({ isActive, isPending }) =>
+            <li className="mr-4 text-xl text-white font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
             } to="/venue">Venue</NavLink></li>
-            <li className="mr-4 text-xl font-medium "><NavLink className={({ isActive, isPending }) =>
+            <li className="mr-4 text-xl text-white font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
             } to="/booking">Booking</NavLink></li>
-            <li className="mr-4 text-xl font-medium "><NavLink className={({ isActive, isPending }) =>
+            <li className="mr-4 text-xl text-white font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
             } to="/login">Login</NavLink></li>
 
 
         </>
     return (
-        <div className="navbar justify-between bg-amber-600">
+        <div className="navbar justify-between bg-[#403F3F]">
 
 
             <div>
