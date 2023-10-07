@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 import { HiCurrencyDollar } from "react-icons/hi";
+import './Team.css'
+
+
 
 
 const Service = () => {
@@ -14,7 +17,7 @@ const Service = () => {
         <h1 className="text-center font-bold text-4xl mb-8">Our Services</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ">
             {
-                services.map(service => <div key={service.id} className="card  bg-base-100 shadow-xl">
+                services.map(service => <div key={service.id} className="card  bg-base-100 shadow-xl main" >
                 <figure><img src={service.image} alt={service.name} /></figure>
                 <div className="card-body">
                   <h2 className="card-title">
