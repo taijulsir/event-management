@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/kM8T4w4/birthday3.jpg",
+        "name": "Birthday Bliss",
+        "description": "Create joyful birthday memories with our tailored event planning services. Let us make your special day truly magical!",
+        "price": "$1,200"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/QvFVpqW/aniversary.jpg",
+        "name": "Anniversary Elegance",
+        "description": "Celebrate your love story with enchanting anniversary events. Our expert planners ensure a day to remember.",
+        "price": "$1,500"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/HT1NR9R/wedding22.jpg",
+        "name": "Wedding Dreams",
+        "description": "Turn your wedding dreams into reality with our expert planning services. We handle every detail for your special day.",
+        "price": "$5,000"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/XYjkZxY/wedding2.jpg",
+        "name": "Wedding Elegance",
+        "description": "Experience timeless elegance on your wedding day. Our expert planners will make your wedding unforgettable.",
+        "price": "$2,500"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/g3bLTZp/birht.jpg",
+        "name": "Kids' Birthday Adventures",
+        "description": "Make your child's birthday magical with themed celebrations, exciting activities, and delicious treats!",
+        "price": "$800"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/p39JXPS/anniversarry2.jpg",
+        "name": "Golden Anniversary Moments",
+        "description": "Celebrate 50 years of love with grand anniversary events. We create golden memories for your milestone.",
+        "price": "$3,500"
+    }
+]

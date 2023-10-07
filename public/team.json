@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "John Smith",
+      "designation": "CEO",
+      "image": "https://i.ibb.co/X2XvLzH/imagessss.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Emily Davis",
+      "designation": "Event Planner",
+      "image": "https://i.ibb.co/ZX6Wh0j/girl.webp"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "designation": "Creative Officer",
+      "image": "https://i.ibb.co/yXVCGw9/dddddss.jpg"
+    },
+    {
+      "id": 4,
+      "name": "William David",
+      "designation": "Marketing Director",
+      "image": "https://i.ibb.co/h28Q73s/image.jpg"
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "designation": "Finance Manager",
+      "image": "https://i.ibb.co/Fqbc4br/downl.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Olivia Clark",
+      "designation": "Customer Relations Manager",
+      "image": "https://i.ibb.co/2vChQPD/gir.jpg"
+    }
+  ]
