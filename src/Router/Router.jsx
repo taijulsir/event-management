@@ -1,18 +1,18 @@
-const { createBrowserRouter } = require("react-router-dom");
-const { default: Root } = require("../Layout/Root");
-const { default: Home } = require("../Home/Home");
+import { createBrowserRouter } from "react-router-dom";
+import Home from "../Home/Home";
+import Root from "../Layout/Root";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter ([
     {
-        path:'/',
+        path: "/",
         element: <Root></Root>,
         children: [
             {
-                path: '/',
-                element:  <Home></Home>
+                path: "/",
+                element: <Home></Home>
             }
         ]
     }
-]);
+])
 
-export default router;
+export default router
