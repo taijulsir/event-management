@@ -8,6 +8,7 @@ import Blog from "../Pages/Blog";
 import Booking from "../Pages/Booking";
 import Portfolio from "../Pages/Portfolio";
 import Login from "../Pages/Login";
+import BlogDetails from "../Pages/BlogDetails";
 
 
 const router = createBrowserRouter ([
@@ -31,7 +32,13 @@ const router = createBrowserRouter ([
             },
             {
                 path:"/blog",
-                element:<Blog></Blog>
+                element:<Blog></Blog>,
+                loader: () => fetch('/blogs.json')
+            },
+            {
+                path: '/blog/:id',
+                element: <BlogDetails></BlogDetails>,
+                loader: () => fetch('/blogs.json')
             },
             {
                 path: "/booking",
