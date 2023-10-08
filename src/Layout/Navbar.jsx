@@ -13,9 +13,6 @@ const Navbar = () => {
             } to="/gallery">Gallery</NavLink></li>
             <li className="mr-4 text-xl  font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
-            } to="/portfolio">Portfolio</NavLink></li>
-            <li className="mr-4 text-xl  font-medium "><NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
             } to="/blog">Blog</NavLink></li>   
             <li className="mr-4 text-xl  font-medium "><NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "active bg-amber-500 underline" : ""
