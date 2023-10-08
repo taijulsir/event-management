@@ -1,0 +1,19 @@
+.image-container {
+   
+    overflow: hidden;
+}
+.hover-image {
+    transition: transform 0.3s, width 0.3s; 
+}
+
+@keyframes hover-animation {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-10px) scale(1.1); }
+}
+
+
+.image-container:hover .hover-image {
+    background-color: black;
+    opacity: 0.9;
+    animation: hover-animation 3s ease-out;
+}
