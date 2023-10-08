@@ -15,7 +15,8 @@ const Service = () => {
     },[])
     return (
     <div className="container mx-auto" >
-        <h1 className="text-center font-bold text-4xl mb-8">Our Services</h1>
+        <p className=" mb-3 font-bold text-4xl text-center">Make Your Wedding More Memorable!</p>
+        <h1 className="text-center text-2xl font-semibold mb-8">Our Services</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 ">
             {
                 services.map(service => <div key={service.id} className="card  bg-base-100 shadow-xl main" >
