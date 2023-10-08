@@ -2,9 +2,7 @@ import Rating from 'react-rating';
 import { BsQuote } from "react-icons/bs";
 import './Team.css'
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-AOS.init();
+
 
 const Testimonials = () => {
     return (
