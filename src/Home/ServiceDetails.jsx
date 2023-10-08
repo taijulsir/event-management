@@ -5,7 +5,7 @@ import Rating from 'react-rating';
 import { IoLocationOutline, IoArrowForwardCircle } from "react-icons/io5";
 import DetailsCard from "./DetailsCard";
 import { HiCurrencyDollar } from "react-icons/hi";
-
+import './Team.css'
 
 const ServiceDetails = () => {
     const details = useLoaderData()
@@ -146,7 +146,7 @@ const ServiceDetails = () => {
 
             {/* contact us section */}
             <section className="bg-white dark:bg-gray-900">
-                <div className="container px-6 py-12 mx-auto">
+                <div className="container px-6 py-12 mx-auto ">
                     <div className="lg:flex lg:items-center lg:-mx-6">
                         <div className="lg:w-1/2 lg:mx-6">
                             <h1 className="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl"> Contact us <br />For more info</h1>
@@ -245,6 +245,9 @@ const ServiceDetails = () => {
                     </div>
                 </div>
             </section>
+
+         
+           
         </div>
     );
 };
