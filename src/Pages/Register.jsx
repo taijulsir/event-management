@@ -53,7 +53,7 @@ const Register = () => {
         .then(result => {
             const users = result.user
             console.log(users)
-            toast.success('Succesfully Login')
+            toast.success('Succesfully Created')
         })
         .catch(error => {
             const errorMessage = error.message;
