@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import AuthHook from "../CustomHook/AuthHook";
 import toast, { Toaster } from 'react-hot-toast';
@@ -8,6 +8,7 @@ import toast, { Toaster } from 'react-hot-toast';
 const Register = () => {
     const {createUser, profileUpdate,signOutUser,googleLogin, githubLogin} = AuthHook()
     const [showPassword,setShowPassword] = useState(false)
+    const navigate = useNavigate()
 
     const handleRegister =(e) => {
         e.preventDefault();
@@ -44,6 +45,7 @@ const Register = () => {
             })
             toast.success('user created succesfully')
             signOutUser();
+            navigate("/login")
 
         })
         .catch(error => {
