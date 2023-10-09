@@ -21,7 +21,7 @@ console.log(greetign);
 #### Answer: B
 
 <i>Write your explanation here</i>
-Explanation: The code tries to declare a variable called "greeting" but mistakenly assigns an empty object to a non-existent variable called "greetign" due to the type-error. Since "greetign" is not defined in the code, it results in a ReferenceError when you try to log it using console.log(greetign).
+ Explanation: The code tries to declare a variable called "greeting" but mistakenly assigns an empty object to a non-existent variable called "greetign" due to the type-error. Since "greetign" is not defined in the code, it results in a ReferenceError when you try to log it using console.log(greetign).
 </p>
 </details>
 
@@ -46,7 +46,7 @@ sum(1, "2");
 #### Answer: C
 
 <i>Write your explanation here</i>
-When we call the sum(1, "2") function, JavaScript performs type coercion to convert the number 1 to a string, and then it concatenates the two strings together, resulting in the string "12". So, the correct answer is indeed "12."
+ Explanation: When we call the sum(1, "2") function, JavaScript performs type coercion to convert the number 1 to a string, and then it concatenates the two strings together, resulting in the string "12". So, the correct answer is indeed "12."
 </p>
 </details>
 
@@ -72,7 +72,7 @@ console.log(food);
 #### Answer: B
 
 <i>Write your explanation here</i>
-Initially, info.favoriteFood is assigned to the first element of the food array, which is "🍕". However, later in the code, it is reassigned to "🍝" with the line info.favoriteFood = "🍝". This reassignment changes the value of info.favoriteFood, but it doesn't modify the original food array. Therefore, when you log food, it remains the same as the original array, except for the info.favoriteFood variable, which now holds the value "🍝".
+ Explanation: Initially, info.favoriteFood is assigned to the first element of the food array, which is "🍕". However, later in the code, it is reassigned to "🍝" with the line info.favoriteFood = "🍝". This reassignment changes the value of info.favoriteFood, but it doesn't modify the original food array. Therefore, when you log food, it remains the same as the original array, except for the info.favoriteFood variable, which now holds the value "🍝".
 
 </p>
 </details>
@@ -98,7 +98,7 @@ console.log(sayHi());
 #### Answer: B
 
 <i>Write your explanation here</i>
-In the code, there's a function called sayHi that's supposed to greet someone by their name. It needs a name to work properly. However, when we call sayHi() with empty parentheses, we don't give it any name to greet. So, inside the function, the name is undefined because it's like trying to say "Hi" to no one in particular.
+ Explanation:In the code, there's a function called sayHi that's supposed to greet someone by their name. It needs a name to work properly. However, when we call sayHi() with empty parentheses, we don't give it any name to greet. So, inside the function, the name is undefined because it's like trying to say "Hi" to no one in particular.
 
 Therefore, the correct answer is B: Hi there, undefined. It's saying "Hi there" but doesn't know who to say it to, hence "undefined" is used to represent the missing name.
 </p>
@@ -128,7 +128,7 @@ console.log(count);
 #### Answer: B
 
 <i>Write your explanation here</i>
-In this code, the forEach method iterates over each element in the nums array. Inside the callback function, there's a conditional statement if (num) that checks if the current element is truthy. Only the numbers 1, 2, and 3 are truthy, while 0 is falsy.
+ Explanation: In this code, the forEach method iterates over each element in the nums array. Inside the callback function, there's a conditional statement if (num) that checks if the current element is truthy. Only the numbers 1, 2, and 3 are truthy, while 0 is falsy.
 
 So, for each of the three truthy elements (1, 2, and 3), the count variable is incremented by 1. Therefore, when you log count, it will be equal to 2 because there are two truthy elements in the array.
 </p>
