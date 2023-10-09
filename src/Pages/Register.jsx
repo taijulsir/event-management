@@ -61,6 +61,8 @@ const Register = () => {
             const users = result.user
            
             toast.success('Succesfully Created')
+            signOutUser();
+            navigate("/login")
         })
         .catch(error => {
             const errorMessage = error.message;
