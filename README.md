@@ -1,6 +1,6 @@
 # Added Features of this project
 
-- User Authentication: Users can log in to the website, and their profile picture and name are displayed in the navbar when logged in. A "Log Out" button allows them to log out.
+- User Authentication: Users can log in to the website by their email google and github, and their profile picture and name are displayed in the navbar when logged in. A "Log Out" button allows them to log out.
 
 - Registration Toggle: Users can easily switch between the login and registration pages, simplifying the process of creating an account.
 
