@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import AuthHook from "../CustomHook/AuthHook";
 import toast, { Toaster } from 'react-hot-toast';
@@ -6,19 +7,20 @@ const Login = () => {
 
     const { signIn,googleLogin, githubLogin } = AuthHook();
     const location = useLocation()
+    console.log(location)
     const navigate = useNavigate()
 
     const handleLogin = (e) => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(email, password);
+       
 
 
         signIn(email, password)
             .then(results => {
                 const result = results.user;
-                console.log(result)
+               
                 toast.success('Succesfully Login')
 
                 // after login 
@@ -33,12 +35,14 @@ const Login = () => {
         media()
         .then(result => {
             const users = result.user
-            console.log(users)
+           
             toast.success('Succesfully Login')
+
+            navigate(location?.state ? location.state : '/')
         })
         .catch(error => {
             const errorMessage = error.message;
-            console.log(errorMessage);
+            toast.err(errorMessage);
         })
     }
 

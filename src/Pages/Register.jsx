@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
@@ -14,8 +15,7 @@ const Register = () => {
         const photoUrl = e.target.photoUrl.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(name,photoUrl,email, password);
-
+      
         // password validation
         if(password.length < 6){
             toast.error('Password must be at least 6 characters long')
@@ -28,7 +28,7 @@ const Register = () => {
         createUser(email, password)
         .then(results => {
             const result = results.user;
-            console.log(result)
+           
         
             // profile update with name and picture
             profileUpdate(name,photoUrl)
@@ -52,12 +52,12 @@ const Register = () => {
         media()
         .then(result => {
             const users = result.user
-            console.log(users)
+           
             toast.success('Succesfully Created')
         })
         .catch(error => {
             const errorMessage = error.message;
-            console.log(errorMessage);
+            toast.error(errorMessage);
         })
     }
 
