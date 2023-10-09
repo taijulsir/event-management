@@ -6,9 +6,9 @@ import ServiceDetails from "../Home/ServiceDetails";
 import Gallery from "../Pages/Gallery";
 import Blog from "../Pages/Blog";
 import Booking from "../Pages/Booking";
-import Portfolio from "../Pages/Portfolio";
 import Login from "../Pages/Login";
 import BlogDetails from "../Pages/BlogDetails";
+import AboutUs from "../Pages/AboutUs";
 
 
 const router = createBrowserRouter ([
@@ -45,8 +45,8 @@ const router = createBrowserRouter ([
                 element: <Booking></Booking>
             },
             {
-                path: "/portfolio",
-                element: <Portfolio></Portfolio>
+                path: "/about",
+                element: <AboutUs></AboutUs>
             },
             {
                 path: "/login",
