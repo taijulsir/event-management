@@ -9,6 +9,8 @@ import Booking from "../Pages/Booking";
 import Login from "../Pages/Login";
 import BlogDetails from "../Pages/BlogDetails";
 import AboutUs from "../Pages/AboutUs";
+import Register from "../Pages/Register";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 
 const router = createBrowserRouter ([
@@ -32,7 +34,7 @@ const router = createBrowserRouter ([
             },
             {
                 path:"/blog",
-                element:<Blog></Blog>,
+                element:<PrivateRoute><Blog></Blog></PrivateRoute>, 
                 loader: () => fetch('/blogs.json')
             },
             {
@@ -42,7 +44,7 @@ const router = createBrowserRouter ([
             },
             {
                 path: "/booking",
-                element: <Booking></Booking>
+                element: <PrivateRoute><Booking></Booking></PrivateRoute> ,
             },
             {
                 path: "/about",
@@ -51,6 +53,10 @@ const router = createBrowserRouter ([
             {
                 path: "/login",
                 element: <Login></Login>
+            },
+            {
+                path: "/register",
+                element: <Register></Register>
             }
 
         ]
