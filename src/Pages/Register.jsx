@@ -21,9 +21,13 @@ const Register = () => {
             toast.error('Password must be at least 6 characters long')
             return;
         }
-        if(! /^(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}[\]:;<>,.?~\\-])/.test(password)){
-            toast.error('Password must contain at least one uppercase letter and special character')
+        if(! /^(?=.*[A-Z])/.test(password)){
+            toast.error('Password must contain at least one uppercase letter')
             return; 
+        }
+        if(! /(?=.*[!@#$%^&*()_+{}[\]:;<>,.?~\\-])/.test(password)){
+            toast.error("Password must contain at least one special character")
+            return;
         }
         createUser(email, password)
         .then(results => {
