@@ -1,18 +1,26 @@
 import Rating from 'react-rating';
 import { BsQuote } from "react-icons/bs";
 import './Team.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 
 const Testimonials = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto overflow-hidden">
             <h1 className="text-4xl text-center font-bold mb-16">Testimonials</h1>
 
 
 
             {/* 1st testimonial */}
-            <div className='flex md:flex-row flex-col justify-between items-center bg-base-200 shadow-2xl rounded-lg lg:w-3/5  mx-auto py-10 px-5 gap-10 md:gap-20'  data-aos="fade-up-right"  data-aos-duration="5000">
+            <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="3000"
+                         className='flex md:flex-row flex-col justify-between items-center bg-base-200 shadow-2xl rounded-lg lg:w-3/5  mx-auto py-10 px-5 gap-10 md:gap-20'   >
                 <img className='h-[300px] w-[239px] rounded-2xl' src="https://i.ibb.co/tXc165W/1671983278614.jpg" alt="" />
                 <div>
                     <h1 className='text-2xl font-bold'>Ayman Sadiq</h1>
@@ -35,7 +43,9 @@ const Testimonials = () => {
                 </div>
             </div>
             {/* 2nd testimonial */}
-            <div className='flex md:flex-row flex-col justify-between items-center bg-base-200 shadow-2xl rounded-lg lg:w-3/5  mx-auto py-10 px-5 gap-10 md:gap-20 mt-5'  data-aos="zoom-in-up"  data-aos-duration="5000">
+            <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="3000" className='flex md:flex-row flex-col justify-between items-center bg-base-200 shadow-2xl rounded-lg lg:w-3/5  mx-auto py-10 px-5 gap-10 md:gap-20 mt-5'>
                 <img className='h-[300px] w-[239px] rounded-2xl' src="https://i.ibb.co/dPVVMn5/serv-1.png" alt="" />
                 <div>
                     <h1 className='text-2xl font-bold'>Sarah Johnson</h1>

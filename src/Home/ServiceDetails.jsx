@@ -44,7 +44,7 @@ const ServiceDetails = () => {
 
             {/* review section */}
             <h1 className="text-2xl px-5 lg:px-0 font-bold text-[#403F3F] mt-6">Review our this service:</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 mt-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 mt-16 overflow-hidden">
                 {/* 1st testimonial */}
                 <div className=" relative mt-16 mb-32 sm:mb-24 testimonial  " >
                     <div className="rounded overflow-hidden shadow-md bg-white">
