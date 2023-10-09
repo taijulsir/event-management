@@ -4,6 +4,7 @@ import AuthHook from "../CustomHook/AuthHook";
 import toast, { Toaster } from 'react-hot-toast';
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import { useState } from "react";
+import Swal from "sweetalert2";
 
 const Login = () => {
     const [showPassword,setShowPassword] = useState(false)
@@ -23,10 +24,15 @@ const Login = () => {
             .then(results => {
                 const result = results.user;
                
-                toast.success('Succesfully Login')
+              
 
                 // after login 
                 navigate(location?.state ? location.state : '/')
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Success!',
+                    text: 'Login Succesful.'
+                  });
             })
             .catch(err => {
                 const errorMessage = err.message;
@@ -38,9 +44,14 @@ const Login = () => {
         .then(result => {
             const users = result.user
            
-            toast.success('Succesfully Login')
+            
 
             navigate(location?.state ? location.state : '/')
+            Swal.fire({
+                icon: 'success',
+                title: 'Success!',
+                text: 'Login Succesful.'
+              });
         })
         .catch(error => {
             const errorMessage = error.message;

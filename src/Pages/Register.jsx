@@ -42,6 +42,7 @@ const Register = () => {
             .catch(errors => {
                 console.log(errors)
             })
+            toast.success('user created succesfully')
             signOutUser();
 
         })
